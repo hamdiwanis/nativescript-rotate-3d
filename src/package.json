@@ -1,6 +1,6 @@
 {
     "name": "nativescript-rotate-3d",
-    "version": "0.8",
+    "version": "0.8.0",
     "description": "NativeScript plugin that add a view that can be rotated in 3d i.e around x ,y or z.",
     "main": "rotate-3d",
     "typings": "index.d.ts",
