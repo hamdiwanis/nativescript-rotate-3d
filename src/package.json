@@ -31,7 +31,10 @@
         "NativeScript",
         "JavaScript",
         "Android",
-        "iOS"
+        "iOS",
+        "rotate",
+        "rotateY",
+        "rotateZ"
     ],
     "author": {
         "name": "Hamdi Wanis",
