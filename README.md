@@ -12,7 +12,7 @@ tns plugin add nativescript-rotate-3d
 ### Example
 
 ```
-<Rotate3D rotate="40" axis="Y" cameraDistance="2000">
+<Rotate3D rotate="40" rotateAxis="Y" cameraDistance="2000">
      /* Whatever you want */
 </Rotate3D>
 ```
