@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:ui="nativescript-rotate-3d"
+      class="page" actionBarHidden="true" backgroundColor="#f5f5f5">
+  <FlexboxLayout alignItems="center" justifyContent="center" width="100%" height="100%">
+    <ui:Rotate3D rotate="40" axis="Y" cameraDistance="2000" translateX="-40"
+                width="80%" height="80%" backgroundColor="#042734">
+      <label text="3D View" color="#042734" fontSize="32" backgroundColor="#00e676"
+             horizontalAlignment="center" verticalAlignment="center" textAlignment="center" width="100%"/>
+    </ui:Rotate3D>
+  </FlexboxLayout>
+</Page>
