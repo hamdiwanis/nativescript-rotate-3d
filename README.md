@@ -17,6 +17,14 @@ tns plugin add nativescript-rotate-3d
 </Rotate3D>
 ```
 
+### Angular
+Add this to `app.module.ts` so you can use a `Gradient` tag in the view:
+
+```typescript
+import { registerElement } from "nativescript-angular";
+registerElement("Rotate3D", () => require("nativescript-rotate-3d").Rotate3D);
+```
+
 ## Usage
 
 Since we're subclassing `StackLayout`, you can add `<Rotate3D>` to your view at any place where you'd otherwise use a `StackLayout`.
